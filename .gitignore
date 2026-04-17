@@ -1,0 +1,9 @@
+# PlatformIO build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Local VS Code settings (optional, keeps workspace clean)
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
