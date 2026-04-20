@@ -54,6 +54,6 @@ Pressing the button toggles between **Normal** and **Service** modes. The interr
 
 ## Notes
 
-- Written in modern C++ (C++11+): `enum class`, `constexpr`, `std::atomic` for interrupt-safe flag handling.
+- Written in modern C++: `enum class`, `constexpr`, `std::atomic` for interrupt-safe flag handling.
 - `IRAM_ATTR` is used on the ISR so it executes from IRAM instead of flash, which is required for ESP32 interrupts.
 - All state transitions and I/O happen non-blockingly in `loop()`, keeping the system responsive to button presses.
